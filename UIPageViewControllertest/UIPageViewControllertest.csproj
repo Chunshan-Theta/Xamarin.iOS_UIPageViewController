@@ -84,10 +84,6 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ContentForPageView.cs" />
-    <Compile Include="ContentForPageView.designer.cs">
-      <DependentUpon>ContentForPageView.cs</DependentUpon>
-    </Compile>
     <Compile Include="HogeDataSource.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />

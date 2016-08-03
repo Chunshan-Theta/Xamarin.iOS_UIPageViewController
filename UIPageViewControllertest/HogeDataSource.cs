@@ -15,17 +15,14 @@ namespace UIPageViewControllertest
         {
             var redVC = new UIViewController();
             redVC.View.BackgroundColor = UIColor.Red;
-            AddDot(redVC);
             Pages.Add(redVC);
 
             var blueVC = new UIViewController();
             blueVC.View.BackgroundColor = UIColor.Blue;
-            AddDot(redVC);
             Pages.Add(blueVC);
 
             var yellowVC = new UIViewController();
             yellowVC.View.BackgroundColor = UIColor.Yellow;
-            AddDot(redVC);
             Pages.Add(yellowVC);
 
             
@@ -72,14 +69,6 @@ namespace UIPageViewControllertest
             //return 0;
         }
 
-        private void AddDot(UIViewController v) {
-            UIPageControl pageControl = new UIPageControl();
 
-            pageControl.CurrentPageIndicatorTintColor = UIColor.Blue;
-            pageControl.PageIndicatorTintColor = UIColor.Green;
-            pageControl.BackgroundColor = UIColor.Orange;
-
-            v.View.AddSubview(pageControl);
-        }
     }
 }
